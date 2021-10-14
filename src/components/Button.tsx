@@ -42,7 +42,7 @@ const SIZES = {
 
 export const StyledButton = styled.button<StylingProps & { children: ReactElement }>`
   border: 0;
-  border-radius: 3em;
+  border-radius: 4em;
   cursor: pointer;
   display: inline-block;
   overflow: hidden;
