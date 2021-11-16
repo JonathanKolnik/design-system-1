@@ -8,12 +8,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - run: |
-        yarn
-    - run: |
-        yarn build
-    - run: |
-        yarn build-storybook
-    - run: |
         CHROMATIC_INDEX_URL=https://cd96-98-14-237-36.ngrok.io npx chromatic --project-token=986172967ea1
 
     # - uses: chromaui/action@v1
