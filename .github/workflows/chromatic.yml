@@ -14,7 +14,7 @@ jobs:
     - run: |
         yarn build-storybook
     - run: |
-        CHROMATIC_INDEX_URL=https://index.dev-chromatic.com npx chromatic --project-token=986172967ea1
+        CHROMATIC_INDEX_URL=https://cd96-98-14-237-36.ngrok.io npx chromatic --project-token=986172967ea1
 
     # - uses: chromaui/action@v1
     #   with: 
