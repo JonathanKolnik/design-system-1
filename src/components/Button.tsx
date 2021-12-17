@@ -411,6 +411,7 @@ export const Button = forwardRef<
         <>
           <Text>hi foo bar{children}</Text>
           <Text>hi foo bar{children}</Text>
+          <Text>hi foo bar{children}</Text>
           {isLoading && <Loading>{loadingText || 'Loading...'}</Loading>}
         </>
       </StyledButton>
